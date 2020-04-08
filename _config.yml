@@ -1,4 +1,4 @@
-title: Hacker-Blog
+title: Lun4t1c -> Blog
 description: "A Jekyll Blog Theme For Hackers"
 author:
   name: "SomeHacker"
@@ -28,5 +28,5 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "SomeHacker"
+owner : "Lun4t1c"
 year : "2020"
