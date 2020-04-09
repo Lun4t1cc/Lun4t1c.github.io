@@ -4,4 +4,4 @@
 
 ## tcache perthread corruption
 
-- 控制 tcache_perthread_struct 后，通过 overwrite 制造 Tcachebins 已满的假象，再 free 一个 chunk，该 chunk 便会直接进入对应 的 bins 中
+- 控制 tcache_perthread_struct 后，通过 overwrite 制造 Tcachebins 已满的假象，再 free 一个 chunk，该 chunk 便会直接进入对应的 bins 中
