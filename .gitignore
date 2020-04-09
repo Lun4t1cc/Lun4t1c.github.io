@@ -3,3 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+Gemfile.lock
+Gemfile
+.gem/specs/rubygems.org%443/quick/Marshal.4.8/jekyll-4.0.0.gemspec
