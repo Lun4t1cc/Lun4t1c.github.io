@@ -26,6 +26,6 @@ shellcode += shellcraft.amd64.linux.write(1 , 'rsp' , 0x30)
 shellcode  = asm(shellcode)
 ```
 
-### 有关链接
+### 相关链接
 
 - http://shell-storm.org/shellcode/ 
