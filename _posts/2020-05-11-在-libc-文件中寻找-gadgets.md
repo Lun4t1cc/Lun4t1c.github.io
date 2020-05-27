@@ -1,6 +1,7 @@
 ---
 title: 在 libc 文件中寻找 gadgets
 category: 代码片段
+layout: post
 ---
 
 ```python
