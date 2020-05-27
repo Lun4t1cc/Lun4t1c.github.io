@@ -4,7 +4,7 @@ category: 代码片段
 ---
 
 ```python
-pop_rdi_ret = libcbase_addr + libc.search(asm("pop rdi\nret")).next()
-pop_rsi_ret = libcbase_addr + libc.search(asm("pop rsi\nret")).next()
-pop_rdx_ret = libcbase_addr + libc.search(asm("pop rdx\nret")).next()
+pop_rdi_ret = libc_base + libc.search(asm("pop rdi\nret")).next()
+pop_rsi_ret = libc_base + libc.search(asm("pop rsi\nret")).next()
+pop_rdx_ret = libc_base + libc.search(asm("pop rdx\nret")).next()
 ```
